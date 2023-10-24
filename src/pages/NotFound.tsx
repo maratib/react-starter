@@ -1,17 +1,17 @@
 import React, { FC } from 'react';
 
+
 type Props = {
   name?: string;
 };
 
-const Home: FC<Props> = ({ name = 'Pokemon' }) => {
-
+const NotFound: FC<Props> = ({ name = 'Pokemon' }) => {
 
   return (
     <div>
-      <h1>This is home page</h1>
+      <h1>404 : Not Found</h1>
     </div>
   );
 };
 
-export default Home;
+export default NotFound;

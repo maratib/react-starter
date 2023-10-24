@@ -1,16 +1,17 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import { Home } from './pages/home'
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import Router from './Router'
+import NavBar from './components/NavBar'
 
 function App() {
 
 
   return (
     <>
-      <Home name='Pokemon' />
-      <ReactQueryDevtools initialIsOpen />
+      <NavBar />
+      <Router />
+
 
     </>
   )
